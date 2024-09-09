@@ -11,4 +11,9 @@ public class PersonInfo implements Serializable {
         phoneNum=ph;
         JOptionPane.showMessageDialog(null, "Name: "+name+", address: "+address+", PhoneNum: "+phoneNum);
     }
+    public void writeObject(){}
+    public void readObject(){}
+    public void readObjectNoData(){}
+
+
 }
